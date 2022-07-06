@@ -6,8 +6,8 @@ local CooldownWaited = 0
 
 local Key = "j"
 
-function TalkTrash(j)
-	if j == Key and CooldownWaited == 0 then
+function TalkTrash(k)
+	if k == Key and CooldownWaited == 0 then
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(TrashTalk[math.random(1,#TrashTalk)], "All")
 		CooldownWaited = Cooldown
 		
