@@ -1,5 +1,5 @@
 local Player = game.Players.LocalPlayer
-local TrashTalk = {"UR TRASH KID", "L", "EZ", "CLIPPED", "HOW DID YOU LOSE", "WYD? LOL", "Smh", "too bad", "LOLOLO", "F", "YOU'RE GARBAGE", "GET CLAPPED" "DAWG", "NERD"}
+local TrashTalk = {"UR TRASH KID", "L", "EZ", "CLIPPED", "HOW DID YOU LOSE", "WYD? LOL", "Smh", "too bad", "LOLOLO", "F", "YOU'RE GARBAGE", "GET CLAPPED"}
 local Mouse = Player:GetMouse()
 local Cooldown = 0.1
 local CooldownWaited = 0
